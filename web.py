@@ -7,7 +7,7 @@ import base64
 # -------------------------------
 # Load YOLO model
 # -------------------------------
-model = YOLO(r"D:\NTI\project deployment\rock_paper\best (3).pt")  # path to your trained model
+model = YOLO(r"D:\NTI\project deployment\rock_paper\rps_trained.pt")  # path to your trained model
 
 # -------------------------------
 # Streamlit UI
@@ -28,9 +28,9 @@ def set_background(image_file):
     st.markdown(style, unsafe_allow_html=True)
 set_background(r"D:\NTI\project deployment\rock_paper\piqsels.com-id-zwfob.jpg")
 
-st.set_page_config(page_title="YOLO Real-Time Detection", layout="centered")
+st.set_page_config(page_title="Rock-paper-scissors Real-Time Game", layout="centered")
 
-st.title("🖐 Rock Paper Scissors - Real Time YOLO")
+st.title("🖐 Rock Paper Scissors - Real Time Game")
 st.markdown("Press **Play** to start camera and run YOLO detection")
 
 play = st.button("▶ Play")
