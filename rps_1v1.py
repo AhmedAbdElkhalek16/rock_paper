@@ -408,7 +408,7 @@ def set_background(image_file):
         </style>
     """
     st.markdown(style, unsafe_allow_html=True)
-set_background(r"D:\NTI\project deployment\rock_paper\piqsels.com-id-zwfob.jpg")
+set_background(r"image\bg.jpeg")
 
 # st.set_page_config(page_title="Rock-paper-scissors Real-Time Game", layout="centered")
 
