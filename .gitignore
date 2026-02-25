@@ -1,2 +1,16 @@
+env/
+env1/
+venv/
+rp/
+
+# Python
+__pycache__/
+*.pyc
 .env
-*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+temp.txt
